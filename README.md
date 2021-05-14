@@ -9,6 +9,9 @@ It should be able to 1.generate TV script for each character. 2. generate dialog
 ### Team members
 Joyce Lu (yl6211), Miaozhi Yu (my1251)
 
+### Project Report
+To learn more about this project, please checkout the report in Project Report - TV Script Generator.pdf
+
 ### Running Locally
 Create a virtual environment:
 
