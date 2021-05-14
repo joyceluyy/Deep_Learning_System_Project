@@ -27,6 +27,8 @@ Install required packages:
 
 For LSTM and GRU, please make sure that you use keras framework.
 
+The pre-trained LSTM models for each specific character is stored at google drive: https://drive.google.com/file/d/1SYJCzvfPSWYgma28LvfzXHr0yRKNU0tG/view?usp=sharing
+
 Execute ```./nmt/run/sh -vocab``` to create source sentences and target sentences for the NMT model.
 
 For NMT, please make sure that you use Pytorch >= 1.0.0.
