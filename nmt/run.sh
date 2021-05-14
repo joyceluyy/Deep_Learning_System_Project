@@ -8,11 +8,7 @@ elif [ "$1" = "test" ]; then
     touch outputs/test_outputs.txt
     CUDA_VISIBLE_DEVICES=0 python run.py decode model.bin ./en_es_data/test.es ./en_es_data/test.en outputs/test_outputs.txt --cuda
 elif [ "$1" = "vocab" ]; then
-    python vocab.py --train-src=./en_es_data/train_tiny.es --train-tgt=./en_es_data/train_tiny.en \
-        --size=200 --freq-cutoff=1 vocab_tiny_q1.json
-    python vocab.py --train-src=./en_es_data/train_tiny.es --train-tgt=./en_es_data/train_tiny.en \
-        vocab_tiny_q2.json
-	python vocab.py --train-src=./en_es_data/train.es --train-tgt=./en_es_data/train.en vocab.json
+	python vocab.py --train-src=../data/train.es --train-tgt=../data/train.en vocab.json
 else
 	echo "Invalid Option Selected"
 fi
