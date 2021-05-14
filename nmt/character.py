@@ -10,9 +10,9 @@ speaker = 1
 d = {}
 
 name = "../data/scripts.csv"
-train = open("en_es_data/train.en", "w")
-test = open("en_es_data/test.en", "w")
-dev = open("en_es_data/dev.en", "w")
+train = open("../data/train.en", "w")
+test = open("../data/test.en", "w")
+dev = open("../data/dev.en", "w")
 
 f = open(name)
 
@@ -21,7 +21,7 @@ next(reader)
 prevRow = next(reader)
 
 vocab = {"<pad>": 0, "<s>": 1, "</s>": 2, "<unk>": 3}
-data = {"src_word2id": speaker_vocab, "tgt_word2id":_vocab}
+data = {"tgt_word2id":_vocab}
 count = 1
 
 for currRow in reader:
