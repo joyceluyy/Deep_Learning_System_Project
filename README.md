@@ -1,13 +1,14 @@
+![alt text] (https://github.com/joyceluyy/Deep_Learning_System_Project/blob/master/Seinfeld.jpeg?raw=true)
 This git repository contains the code for the Deep Learning System Sp21 final project.
-** Seinfeld TV Scripts Generator**
+## Seinfeld TV Scripts Generator
 We would like to design and train deep neural networks that generate TV scripts for the show Seinfeld.
 
 It should be able to 1.generate TV script for each character. 2. generate dialogue between two characters that frequently chat with each other.
 
-***Team members***
+###Team members
 Joyce Lu (yl6211), Miaozhi Yu (my1251)
 
-*** Running Locally ***
+### Running Locally
 Create a virtual environment:
 ```virtualenv ~/.virtualenvs/script_generator```
 
@@ -26,7 +27,7 @@ For NMT, please make sure that you use Pytorch >= 1.0.0.
 
 - Run ```./nmt/run.sh -test``` for testing.
 
-*** Reference ***
+###Reference
 For NMT model, we modified the code used in this github: https://github.com/samjkwong/NLG-NMT/tree/master/nmt
 
 For GRU model, we consulted this source https://www.geeksforgeeks.org/ml-text-generation-using-gated-recurrent-unit-networks/
