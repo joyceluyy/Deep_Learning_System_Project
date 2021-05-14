@@ -11,17 +11,20 @@ Joyce Lu (yl6211), Miaozhi Yu (my1251)
 
 ### Running Locally
 Create a virtual environment:
+
 ```virtualenv ~/.virtualenvs/script_generator```
 
 Activate the virtual environment:
+
 ```. ~/.virtualenvs/script_generator/bin/activate```
 
 Install required packages:
+
 ```pip install -r ./nmt/requirements```
 
 For LSTM and GRU, please make sure that you use keras framework.
 
-- Run ```./nmy/run/sh -vocab``` to create source sentences and target sentences for the NMT model.
+Execute ```./nmy/run/sh -vocab``` to create source sentences and target sentences for the NMT model.
 
 For NMT, please make sure that you use Pytorch >= 1.0.0.
 - Run ```./nmt/run.sh -train``` for training.
