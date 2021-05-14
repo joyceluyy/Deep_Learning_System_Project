@@ -24,7 +24,7 @@ Install required packages:
 
 For LSTM and GRU, please make sure that you use keras framework.
 
-Execute ```./nmy/run/sh -vocab``` to create source sentences and target sentences for the NMT model.
+Execute ```./nmt/run/sh -vocab``` to create source sentences and target sentences for the NMT model.
 
 For NMT, please make sure that you use Pytorch >= 1.0.0.
 - Run ```./nmt/run.sh -train``` for training.
